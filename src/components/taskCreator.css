@@ -1,0 +1,69 @@
+.taskCreator
+{
+    /* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.363); */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+    margin: 0 0;
+}
+.taskCreator h2
+{
+    font-family: 'Cascadia Code';
+    font-weight: 500;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    margin: 0 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.taskCreator input
+{
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 86, 86);
+    outline: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    /* border: none; */
+}
+.taskCreator input:focus
+{
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: rgba(155, 65, 65, 0.5);
+}
+.taskCreator input:hover
+{
+    cursor: pointer;
+}
+.taskCreator button
+{
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(88, 86, 86);
+    background: none;
+    font-family: 'Cascadia Code';
+    font-weight: 500;
+    font-size: smaller;
+    transition: 0.5s;
+}
+.taskCreator button:hover
+{
+    transition: 0.5s;
+    background: rgba(139, 3, 230, 0.514);
+    box-shadow: 0 0 15px 2px rgba(208, 0, 250, 0.363);
+    border: none;
+    cursor: pointer;
+}
